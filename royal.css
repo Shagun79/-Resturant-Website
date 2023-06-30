@@ -1,0 +1,327 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  
+  margin-top: 0px;
+}
+body {margin: 0px;
+  padding: 0px;
+   
+}
+
+
+ul {
+  margin-top: 0px;
+  display: flex;
+}
+
+li  {
+  list-style-type: none;
+ 
+ 
+ 
+  
+  font-weight: 500px;
+  font-size: larger;}
+  li a{ text-decoration: none;
+    color:  white;
+   
+    margin-left: 45px;
+
+  }
+  .tablebtn{
+    padding: 0px 15px 15px 0px; 
+    margin-left: 40px;
+    text-align: center;
+    background-color: rgb(218, 150, 76);
+    /* margin: auto; */
+    border: transparent;}
+    .tablebtn:hover{
+      background-color: white;
+    }
+  
+
+li::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background-color: blue;
+  margin: auto;
+  display: block;
+}
+
+li:hover::after {
+  width: 100%;
+  transition: 0.2s linear;
+  color: beige;
+}
+
+.backvideo {
+  position: relative;
+  z-index: -1;
+ 
+  
+}
+
+.content  {
+     position:  absolute;
+    top: 0;
+    /* background: rgba(0, 0, 0, 0.5); */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    
+}
+
+
+
+
+
+
+
+.text{
+    text-align: center;
+    margin-top: 100px;
+    
+}
+ .Flavours{ font-size: 60px;}
+    
+ .Delicious{
+    color:  rgb(218, 150, 76);;
+    font-size: large;
+ }
+ .come{
+    color:   palevioletred;
+    font-size: 20px;
+    margin-bottom: 0px;
+
+ }
+ .viewbtn{
+    padding: 5px 10px 10px 5px;
+    background-color: transparent;
+     border: 1px solid  rgb(218, 150, 76);;
+     color:  white;
+     margin-left: 80px;
+     margin-top: 10px;
+     font-size: 20px;
+
+ }
+ .viewbtn:hover{
+  background-color: aqua;
+ }
+ .nextpage{
+
+  height: 700px;
+ 
+ }
+ .nextcontent{
+  text-align: center;
+ }
+ .blackleafimg{
+  position: absolute;
+  z-index: -1;
+ }
+ .royalty{
+  color:rgb(218, 150, 76);;
+ }
+ .weoffer,.royaltywhite{
+  color: white;
+ }
+ .nextimage{
+  display: flex;
+ }
+  .breakfast{ 
+    width: 50%;
+
+  }
+  .brtext{ margin-left: 160px;
+    color: white;
+    font-family: cursive;
+
+  }
+  .aptext{margin-left: 160px;
+    color: white;
+    font-family: cursive;
+
+  }
+  .appetizers{  
+    width: 50%;
+
+  }
+  .drinks{ 
+    width: 80%;
+    height: 250px;
+
+  }
+  .drtext{margin-left: 440px;
+    color: white;
+    font-family: cursive;
+
+  }
+  .thirdpage{
+    display: flex;
+  }
+  .thirdcontent,.thirdimgsec{
+   
+    width: 50%;
+    text-align: center;
+  }
+  .blackwavybg{
+    position: absolute;
+    z-index: -1;
+  }
+  .our{
+    color: orange
+    
+  }
+  .every, .book{
+    color: wheat;
+    font-family: cursive;
+  }
+  .book{
+    color: white;
+  }
+  .readbtn, .menu{   background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .readbtn:hover,.menu:hover{
+    background-color: aqua;
+  }
+  .peopleeat{
+    float: left;
+  }
+  .fourthpage{ display: flex;
+    text-align: center;
+    height: 400px;
+    
+    
+  }
+  .dry{
+    position: absolute;
+    z-index: -1;
+  }
+  .fourimg,.fourcontent{
+    width: 50%;
+    height: 400px;
+
+  }
+  .fivepage{
+    display: flex ;
+  }
+  
+  .lobster{
+    color: #f1f1f1;
+    font-family: cursive;
+    margin-top: 50px;
+  }
+  .lobsterp{
+    color: orange;
+    font-family: cursive;
+  }
+  .drybg{
+    position: absolute;
+    z-index: -1;
+  }
+  .halfmenu
+  {
+    
+    width: 50%;
+  }
+  .dm{
+    color: rgb(173, 36, 82);
+    font-family: cursive;
+    text-align: center;
+  }
+  .food1{
+    
+      width: 100%;
+      
+      
+  }
+  .food2{
+    width: 100%;
+
+  }
+  .food3{
+    
+      width: 100%;
+  }
+  .food4{
+    
+      width: 1000%;
+  }
+  .food5{
+    
+      width: 1000%
+  }
+  .food6{
+    
+      width: 1000%;
+  }
+  .biryani{
+    float: left;
+  }
+  .g{
+    color:  white;
+  }
+  .menup{
+    color:  orange;
+    font-family: cursive;
+  }
+
+  .hurry{
+    padding: 5px 10px 10px 5px;
+    background-color: transparent;
+     border: 1px solid  rgb(218, 150, 76);;
+     color:  white;
+     margin-left: 80px;
+     margin-top: 10px;
+     font-size: 20px;
+     margin-left: 400px;
+
+  }
+  .hurry:hover{
+    background-color: aqua;
+  }
+  .yellow{
+      color: #f1f1f1;;;
+      text-align: center;
+  }
+  .page6{ margin-top: 60px;
+    
+  }
+   .winew{
+   opacity: 0.8;
+    position: absolute;
+    z-index: -1;
+    
+   }
+   .thanknote{
+    font-family: cursive;
+    text-align: center;
+    justify-content: center;
+    /* margin-top: 68px; */
+    padding-top: 200px;
+   color: #f1f1f1;
+    
+   }
+   .man{
+   margin-left: 380px;
+   }
+   .sam{
+    color: red;
+     text-align: center;
+   }
+
+  
+
+
+

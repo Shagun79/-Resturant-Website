@@ -1,0 +1,159 @@
+ .navbar {
+    display: flex;
+    width: 100%;
+    
+    margin-top: 0px;
+  }
+  body {margin: 0px;
+    padding: 0px;
+     
+  }
+  
+  
+  ul {
+    margin-top: 0px;
+    display: flex;
+  }
+  
+  li  {
+    list-style-type: none;
+   
+   
+   
+    
+    font-weight: 500px;
+    font-size: larger;}
+    li a{ text-decoration: none;
+      color:  white;
+     
+      margin-left: 45px;
+  
+    }
+    .tablebtn{
+      padding: 0px 15px 15px 0px; 
+      margin-left: 40px;
+      text-align: center;
+      background-color: rgb(218, 150, 76);
+      /* margin: auto; */
+      border: transparent;}
+      .tablebtn:hover{
+        background-color: white;
+      }
+    
+  
+  li::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: blue;
+    margin: auto;
+    display: block;
+  }
+  
+  li:hover::after {
+    width: 100%;
+    transition: 0.2s linear;
+    color: beige;
+  }
+  
+  .backvideo {
+    position: relative;
+    z-index: -1;
+   
+    
+  }
+  
+  .content  {
+       position:  absolute;
+      top: 0;
+      /* background: rgba(0, 0, 0, 0.5); */
+      color: #f1f1f1;
+      width: 100%;
+      padding: 20px;
+      
+  }
+  .fivepage{
+    background-color: black;
+  }
+  .fivepage{
+    display: flex ;
+  }
+  
+  .lobster{
+    color: #f1f1f1;
+    font-family: cursive;
+    margin-top: 50px;
+  }
+  .lobsterp{
+    color: orange;
+    font-family: cursive;
+  }
+  .drybg{
+    position: absolute;
+    z-index: -1;
+  }
+  .halfmenu
+  {
+    
+    width: 50%;
+  }
+  .dm{
+    color: rgb(173, 36, 82);
+    font-family: cursive;
+    text-align: center;
+  }
+  .food1{
+    
+      width: 100%;
+      
+      
+  }
+  .food2{
+    width: 100%;
+
+  }
+  .food3{
+    
+    width: 100%;
+}
+.food4{
+  
+    width: 1000%;
+}
+.food5{
+  
+    width: 1000%
+}
+.food6{
+  
+    width: 1000%;
+}
+.biryani{
+  float: left;
+}
+.g{
+  color:  white;
+}
+.menup{
+  color:  orange;
+  font-family: cursive;
+}
+
+.hurry{
+  padding: 5px 10px 10px 5px;
+  background-color: transparent;
+   border: 1px solid  rgb(218, 150, 76);;
+   color:  white;
+   margin-left: 80px;
+   margin-top: 10px;
+   font-size: 20px;
+   margin-left: 400px;
+
+}
+.hurry:hover{
+  background-color: aqua;
+}
+.yellow{
+    color: #f1f1f1;;;
+    text-align: center;
+}
